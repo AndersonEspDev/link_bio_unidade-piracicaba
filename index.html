@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>430Gradi - piracicaba</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,37 +15,61 @@
     />
   </head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TMF2TS00T7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-TMF2TS00T7"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
 
-  gtag('config', 'G-TMF2TS00T7');
-</script>
+    gtag('config', 'G-TMF2TS00T7')
+  </script>
   <body>
     <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '254883986963891');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=254883986963891&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments)
+        }
+        if (!f._fbq) f._fbq = n
+        n.push = n
+        n.loaded = !0
+        n.version = '2.0'
+        n.queue = []
+        t = b.createElement(e)
+        t.async = !0
+        t.src = v
+        s = b.getElementsByTagName(e)[0]
+        s.parentNode.insertBefore(t, s)
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      )
+      fbq('init', '254883986963891')
+      fbq('track', 'PageView')
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=254883986963891&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 
     <div id="container">
       <div id="profile">
         <img
-          src="assets/Avatar.png"
+          src="Avatar.png"
           alt="Foto de perfil com logotipo da pizzaria napoletana 430 Gradi."
         />
         <p>@430gradi.piracicaba</p>
